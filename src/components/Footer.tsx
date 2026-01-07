@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
-              JL63.com is a premier online gaming platform dedicated to providing exceptional entertainment 
+              JL63.org is a premier online gaming platform dedicated to providing exceptional entertainment 
               experiences. With over 500 premium games, industry-leading security, and unparalleled customer 
               service, we are committed to being your preferred gaming destination. Our platform is licensed, 
               regulated, and designed with your enjoyment and safety in mind.
@@ -58,7 +58,7 @@ const Footer = () => {
             <h4 className="font-display font-semibold text-foreground mb-6">Support</h4>
             <ul className="space-y-3">
               <li><span className="text-muted-foreground">24/7 Live Chat</span></li>
-              <li><span className="text-muted-foreground">Email: support@jl63.com</span></li>
+              <li><span className="text-muted-foreground">Email: support@jl63.org</span></li>
               <li><span className="text-muted-foreground">Help Center</span></li>
               <li><span className="text-muted-foreground">Responsible Gaming</span></li>
               <li><span className="text-muted-foreground">Terms & Conditions</span></li>
@@ -73,7 +73,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Globe className="w-4 h-4" />
-              <span>© {currentYear} JL63.com. All rights reserved.</span>
+              <span>© {currentYear} JL63.org. All rights reserved.</span>
             </div>
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
               <span>Privacy Policy</span>

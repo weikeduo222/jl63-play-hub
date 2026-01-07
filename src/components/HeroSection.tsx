@@ -40,7 +40,7 @@ const HeroSection = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            Discover a world-class entertainment experience at JL63.com. We offer an extensive collection of premium games, 
+            Discover a world-class entertainment experience at JL63.org. We offer an extensive collection of premium games, 
             unmatched security, lightning-fast transactions, and exceptional customer service. Join thousands of satisfied 
             players who have made JL63 their preferred gaming destination. Your journey to extraordinary wins begins here.
           </p>

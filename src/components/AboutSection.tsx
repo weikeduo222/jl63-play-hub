@@ -18,7 +18,7 @@ const AboutSection = () => {
             <span className="text-foreground">?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            JL63.com stands as a beacon of excellence in the online gaming industry. Established with a vision to 
+            JL63.org stands as a beacon of excellence in the online gaming industry. Established with a vision to 
             revolutionize digital entertainment, we have consistently delivered unparalleled gaming experiences to 
             players worldwide. Our platform combines cutting-edge technology with a deep understanding of what 
             gamers truly desire.
@@ -46,7 +46,7 @@ const AboutSection = () => {
                 What truly sets JL63 apart is our unwavering commitment to customer satisfaction. Our dedicated support 
                 team is available around the clock, ready to assist with any inquiry or concern. Whether you're a 
                 seasoned player or just beginning your gaming journey, our team ensures that your experience at 
-                JL63.com is nothing short of exceptional.
+                JL63.org is nothing short of exceptional.
               </p>
             </div>
 
