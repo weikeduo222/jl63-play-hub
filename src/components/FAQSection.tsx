@@ -12,7 +12,7 @@ const CTA_URL = "https://jiliaaa.superace0.com/click-go-to/";
 const faqs = [
   {
     question: "What is JL63 and what services does it offer?",
-    answer: "JL63 is a premier online gaming platform that offers a comprehensive entertainment experience. Our platform features over 500 premium games including slots, live casino, table games, sports betting, and jackpot games. We provide a secure, fair, and exciting environment for players worldwide, backed by industry-leading technology and customer support. At JL63.com, we pride ourselves on delivering exceptional gaming experiences with generous bonuses and fast payouts.",
+    answer: "JL63 is a premier online gaming platform that offers a comprehensive entertainment experience. Our platform features over 500 premium games including slots, live casino, table games, sports betting, and jackpot games. We provide a secure, fair, and exciting environment for players worldwide, backed by industry-leading technology and customer support. At JL63.org, we pride ourselves on delivering exceptional gaming experiences with generous bonuses and fast payouts.",
   },
   {
     question: "How do I create an account at JL63?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     question: "Is JL63 safe and secure?",
-    answer: "Absolutely. Security is our top priority at JL63. We employ state-of-the-art 256-bit SSL encryption technology to protect all transactions and personal information. Our platform operates under strict regulatory oversight and all games are independently tested by certified laboratories to ensure fair play. We also offer two-factor authentication for enhanced account security. Your safety and privacy are guaranteed when you play at JL63.com.",
+    answer: "Absolutely. Security is our top priority at JL63. We employ state-of-the-art 256-bit SSL encryption technology to protect all transactions and personal information. Our platform operates under strict regulatory oversight and all games are independently tested by certified laboratories to ensure fair play. We also offer two-factor authentication for enhanced account security. Your safety and privacy are guaranteed when you play at JL63.org.",
   },
   {
     question: "What payment methods does JL63 accept?",
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: "Can I play JL63 games on my mobile device?",
-    answer: "Yes, JL63 is fully optimized for mobile gaming. Our responsive platform works seamlessly on all devices including smartphones and tablets, regardless of operating system. There's no need to download any app – simply access JL63.com through your mobile browser for instant access to our complete game library. The mobile experience mirrors our desktop version with the same high-quality graphics and smooth gameplay.",
+    answer: "Yes, JL63 is fully optimized for mobile gaming. Our responsive platform works seamlessly on all devices including smartphones and tablets, regardless of operating system. There's no need to download any app – simply access JL63.org through your mobile browser for instant access to our complete game library. The mobile experience mirrors our desktop version with the same high-quality graphics and smooth gameplay.",
   },
   {
     question: "How does the JL63 VIP program work?",

@@ -66,7 +66,7 @@ const GamesSection = () => {
             <span className="text-gradient-gold">Premium Games</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Discover an unparalleled selection of games at JL63.com. Our library is carefully curated to offer 
+            Discover an unparalleled selection of games at JL63.org. Our library is carefully curated to offer 
             the best gaming experiences from industry-leading providers. Every game is optimized for both desktop 
             and mobile play, ensuring seamless entertainment wherever you are.
           </p>

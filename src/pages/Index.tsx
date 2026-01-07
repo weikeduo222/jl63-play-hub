@@ -28,7 +28,7 @@ const Index = () => {
         <div style={{ padding: '20px', textAlign: 'center', backgroundColor: '#0a0a0f', color: '#f5f5dc' }}>
           <h1>Welcome to JL63 - Premium Online Gaming Platform</h1>
           <p>
-            JL63.com is your ultimate destination for online gaming entertainment. We offer over 500 premium games 
+            JL63.org is your ultimate destination for online gaming entertainment. We offer over 500 premium games 
             including slots, live casino, table games, sports betting, and jackpot games. Our platform provides 
             bank-level security, lightning-fast payouts, and 24/7 customer support.
           </p>
@@ -56,10 +56,10 @@ const Index = () => {
           <p>
             Our dedicated support team is available 24 hours a day, 7 days a week. Whether you need 
             assistance with account issues, game inquiries, or payment questions, our knowledgeable 
-            staff is ready to help. Email: support@jl63.com
+            staff is ready to help. Email: support@jl63.org
           </p>
           <p>
-            © 2024 JL63.com - All Rights Reserved. Play Responsibly. 18+ Only.
+            © 2024 JL63.org - All Rights Reserved. Play Responsibly. 18+ Only.
           </p>
         </div>
       </noscript>
