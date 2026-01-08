@@ -4,7 +4,50 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const CTA_URL = "https://jiliaaa.superace0.com/click-go-to/";
 
-const HeroSection = () => {
+const content = {
+  en: {
+    badge: "Welcome to the Premier Gaming Destination",
+    title1: "Experience ",
+    title2: "JL63",
+    subtitle: "Your Ultimate Online Gaming Platform",
+    description: "Discover a world-class entertainment experience at JL63.org. We offer an extensive collection of premium games, unmatched security, lightning-fast transactions, and exceptional customer service. Join thousands of satisfied players who have made JL63 their preferred gaming destination. Your journey to extraordinary wins begins here. Our platform is designed with state-of-the-art technology to ensure seamless gameplay across all devices. Whether you prefer classic table games or modern video slots, JL63 delivers an unparalleled gaming experience that keeps you coming back for more.",
+    playNow: "Play Now",
+    createAccount: "Create Free Account",
+    secure: "100% Secure",
+    ssl: "SSL Encrypted",
+    instant: "Instant",
+    fastWithdrawals: "Fast Withdrawals",
+    games: "500+",
+    premiumGames: "Premium Games",
+    support: "Support",
+    alwaysAvailable: "Always Available",
+  },
+  ph: {
+    badge: "Maligayang Pagdating sa Pangunahing Gaming Destination",
+    title1: "Maranasan ang ",
+    title2: "JL63",
+    subtitle: "Ang Iyong Pinakahuling Online Gaming Platform",
+    description: "Tuklasin ang world-class na entertainment experience sa JL63.org. Nag-aalok kami ng malawak na koleksyon ng premium na mga laro, walang kapantay na seguridad, mabilis na transaksyon, at pambihirang serbisyo sa customer. Sumali sa libu-libong nasisiyahang manlalaro na ginawang JL63 ang kanilang paboritong gaming destination. Narito na nagsisimula ang iyong paglalakbay patungo sa mga pambihirang panalo. Ang aming platform ay dinisenyo gamit ang pinakabagong teknolohiya upang matiyak ang maayos na gameplay sa lahat ng device. Maging gusto mo man ang mga klasikong table games o modernong video slots, nagbibigay ang JL63 ng walang kapantay na gaming experience na nagpapabalik-balik sa iyo.",
+    playNow: "Maglaro Na",
+    createAccount: "Gumawa ng Libreng Account",
+    secure: "100% Ligtas",
+    ssl: "SSL Encrypted",
+    instant: "Instant",
+    fastWithdrawals: "Mabilis na Withdrawals",
+    games: "500+",
+    premiumGames: "Premium na Laro",
+    support: "Suporta",
+    alwaysAvailable: "Palaging Available",
+  },
+};
+
+interface HeroSectionProps {
+  lang?: "en" | "ph";
+}
+
+const HeroSection = ({ lang = "en" }: HeroSectionProps) => {
+  const t = content[lang];
+
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       {/* Background Image */}
@@ -25,24 +68,22 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-dark-elevated border border-gold/30 mb-8 animate-fade-in">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-            <span className="text-sm text-gold font-medium">Welcome to the Premier Gaming Destination</span>
+            <span className="text-sm text-gold font-medium">{t.badge}</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="font-display font-bold text-5xl md:text-7xl lg:text-8xl mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            <span className="text-foreground">Experience </span>
-            <span className="text-gradient-gold">JL63</span>
+            <span className="text-foreground">{t.title1}</span>
+            <span className="text-gradient-gold">{t.title2}</span>
           </h1>
           
           <h2 className="font-display text-2xl md:text-3xl lg:text-4xl text-muted-foreground mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Your Ultimate Online Gaming Platform
+            {t.subtitle}
           </h2>
 
           {/* Description */}
-          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            Discover a world-class entertainment experience at JL63.org. We offer an extensive collection of premium games, 
-            unmatched security, lightning-fast transactions, and exceptional customer service. Join thousands of satisfied 
-            players who have made JL63 their preferred gaming destination. Your journey to extraordinary wins begins here.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: '0.3s' }}>
+            {t.description}
           </p>
 
           {/* CTA Buttons */}
@@ -54,7 +95,7 @@ const HeroSection = () => {
             >
               <Button variant="cta" size="xl" className="group">
                 <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                Play Now
+                {t.playNow}
               </Button>
             </a>
             <a
@@ -63,7 +104,7 @@ const HeroSection = () => {
               rel="nofollow noopener noreferrer"
             >
               <Button variant="goldOutline" size="xl">
-                Create Free Account
+                {t.createAccount}
               </Button>
             </a>
           </div>
@@ -72,23 +113,23 @@ const HeroSection = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto animate-fade-in" style={{ animationDelay: '0.5s' }}>
             <div className="flex flex-col items-center p-4 rounded-xl bg-dark-elevated/50 border border-border/50 backdrop-blur-sm">
               <Shield className="w-8 h-8 text-gold mb-2" />
-              <span className="font-display font-semibold text-foreground">100% Secure</span>
-              <span className="text-sm text-muted-foreground">SSL Encrypted</span>
+              <span className="font-display font-semibold text-foreground">{t.secure}</span>
+              <span className="text-sm text-muted-foreground">{t.ssl}</span>
             </div>
             <div className="flex flex-col items-center p-4 rounded-xl bg-dark-elevated/50 border border-border/50 backdrop-blur-sm">
               <Zap className="w-8 h-8 text-gold mb-2" />
-              <span className="font-display font-semibold text-foreground">Instant</span>
-              <span className="text-sm text-muted-foreground">Fast Withdrawals</span>
+              <span className="font-display font-semibold text-foreground">{t.instant}</span>
+              <span className="text-sm text-muted-foreground">{t.fastWithdrawals}</span>
             </div>
             <div className="flex flex-col items-center p-4 rounded-xl bg-dark-elevated/50 border border-border/50 backdrop-blur-sm">
               <Trophy className="w-8 h-8 text-gold mb-2" />
-              <span className="font-display font-semibold text-foreground">500+</span>
-              <span className="text-sm text-muted-foreground">Premium Games</span>
+              <span className="font-display font-semibold text-foreground">{t.games}</span>
+              <span className="text-sm text-muted-foreground">{t.premiumGames}</span>
             </div>
             <div className="flex flex-col items-center p-4 rounded-xl bg-dark-elevated/50 border border-border/50 backdrop-blur-sm">
               <div className="w-8 h-8 text-gold mb-2 flex items-center justify-center font-display font-bold text-lg">24/7</div>
-              <span className="font-display font-semibold text-foreground">Support</span>
-              <span className="text-sm text-muted-foreground">Always Available</span>
+              <span className="font-display font-semibold text-foreground">{t.support}</span>
+              <span className="text-sm text-muted-foreground">{t.alwaysAvailable}</span>
             </div>
           </div>
         </div>
